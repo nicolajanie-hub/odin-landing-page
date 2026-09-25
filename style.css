@@ -1,11 +1,20 @@
-/* 
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-Things to work on tomorrow:
-- Font Sizes
-- Actual fonts used
-- Rounded corners
+p, h4, h5, h6, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-*/
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900px;
+}
 
 body {
     display: flex;
@@ -29,6 +38,7 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
+    font-size: 18px;
 }
 
 a {
@@ -56,6 +66,11 @@ a {
 
 .hook {
     flex: 1 1 0;
+    font-size: 18px;
+}
+
+.hook-first {
+    font-size: 48px;
 }
 
 .main-image {
@@ -75,6 +90,7 @@ a {
 .how-it-works {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .step {
@@ -100,6 +116,8 @@ a {
 .quote-text {
     text-align: left;
     margin-bottom: 0px;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .call {
@@ -111,11 +129,19 @@ a {
     gap: 20px;
     justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .call-one {
     padding: 0px;
     margin: 0px;
+    font-size: 24px;
 }
 
 .call-two {
@@ -142,6 +168,8 @@ a {
     object-fit: cover;
     width: 200px;
     height: 200px;
+    border: 2px solid #131a14;
+    border-radius: 10px;
 }
 
 .image-caption {
@@ -157,6 +185,8 @@ button {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .call-button {
